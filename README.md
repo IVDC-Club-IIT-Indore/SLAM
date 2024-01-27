@@ -1,2 +1,2 @@
 # SLAM
-Reviewing SLAM approaches for IVDC club project
+Reviewing and Comparing SLAM approaches

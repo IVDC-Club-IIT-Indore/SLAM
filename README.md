@@ -1,7 +1,8 @@
 To get started -
 
 
-https://github.com/IVDC-Club-IIT-Indore/SLAM/assets/104747561/6665fd30-d2f9-4fa3-9b47-fb21f58dd3af
+https://github.com/IVDC-Club-IIT-Indore/SLAM/assets/104747561/90d546af-9987-41ea-b4dc-346d2035e11c
+
 
 
 1. Run the following nodes in each case in different terminals

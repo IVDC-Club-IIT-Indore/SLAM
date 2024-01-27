@@ -1,5 +1,9 @@
 To get started -
 
+
+https://github.com/IVDC-Club-IIT-Indore/SLAM/assets/104747561/6665fd30-d2f9-4fa3-9b47-fb21f58dd3af
+
+
 1. Run the following nodes in each case in different terminals
 -----------------------------------------------------------------------------------------------------------
    CASE 1: real lidar is used

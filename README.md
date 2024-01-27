@@ -6,11 +6,11 @@ To get started -
 
 - dynamic binding(assuming the ouster is setup using the instructions in ouster_setup.py)
    `sudo dnsmasq -C /dev/null -kd -F 192.168.5.50,192.168.5.100 -i <name of your ethernet port eg. eth0 or enp43s0> --bind-dynamic`
-  wait till the host name appears in the terminal ( around 15-30 sec)
-- the lidar driver node `ros2 launch ouster_ros driver.launch.py  `
--ros2 launch kiss_icp odometry.launch.py topic:=topic_pts ( replace topic_pts appropriately)
+- wait till the host name appears in the terminal ( around 15-30 sec)
+- the lidar driver node `ros2 launch ouster_ros driver.launch.py`
+- ros2 launch kiss_icp odometry.launch.py topic:=topic_pts ( replace topic_pts appropriately)
+
 ----------------------------------------------------------------------------------------------------------
-    CASE 2 :
-  ( incase of rosbags)
+   CASE 2 : rosbags for imu/ points / tf topic 
 - play the rosbag ( make sure to check the topic over which points are published say topic_pts)
 - ros2 launch kiss_icp odometry.launch.py topic:=topic_pts ( replace topic_pts appropriately)
